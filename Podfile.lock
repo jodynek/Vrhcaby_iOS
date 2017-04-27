@@ -1,0 +1,28 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - SideMenu (2.3.1)
+
+DEPENDENCIES:
+  - FMDB
+  - SideMenu (from `https://github.com/jonkykong/SideMenu.git`)
+
+EXTERNAL SOURCES:
+  SideMenu:
+    :git: https://github.com/jonkykong/SideMenu.git
+
+CHECKOUT OPTIONS:
+  SideMenu:
+    :commit: e6eb28385c6ef931db191c7142d8cd5bbec46c87
+    :git: https://github.com/jonkykong/SideMenu.git
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  SideMenu: 18a5ec3d7c102688268ba99c008bbdb610c48520
+
+PODFILE CHECKSUM: a3ef645352b7391a949b5b1de31a4978ec2f2977
+
+COCOAPODS: 1.1.1
