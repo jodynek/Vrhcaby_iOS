@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		099A0A9C2A514FC183D8577C /* Pods_Vrhcaby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CA2AEB94BC0AA5F051189 /* Pods_Vrhcaby.framework */; };
 		9208BD821EB1D95800C7CE36 /* FinalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208BD811EB1D95800C7CE36 /* FinalVC.swift */; };
-		9208BDA31EB322D900C7CE36 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208BD991EB322D900C7CE36 /* FMDatabase.m */; };
-		9208BDA41EB322D900C7CE36 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208BD9B1EB322D900C7CE36 /* FMDatabaseAdditions.m */; };
-		9208BDA51EB322D900C7CE36 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208BD9D1EB322D900C7CE36 /* FMDatabasePool.m */; };
-		9208BDA61EB322D900C7CE36 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208BD9F1EB322D900C7CE36 /* FMDatabaseQueue.m */; };
-		9208BDA71EB322D900C7CE36 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208BDA21EB322D900C7CE36 /* FMResultSet.m */; };
 		9208BDA91EB3234B00C7CE36 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208BDA81EB3234B00C7CE36 /* libsqlite3.tbd */; };
 		922644331EB0A13700964C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922644321EB0A13700964C6A /* AppDelegate.swift */; };
 		922644351EB0A13700964C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922644341EB0A13700964C6A /* ViewController.swift */; };
@@ -28,17 +23,6 @@
 		41CF1640BD6D175A90CD6936 /* Pods-Vrhcaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vrhcaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vrhcaby/Pods-Vrhcaby.release.xcconfig"; sourceTree = "<group>"; };
 		9208BD811EB1D95800C7CE36 /* FinalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalVC.swift; sourceTree = "<group>"; };
 		9208BD971EB322D700C7CE36 /* Vrhcaby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vrhcaby-Bridging-Header.h"; sourceTree = "<group>"; };
-		9208BD981EB322D900C7CE36 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		9208BD991EB322D900C7CE36 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		9208BD9A1EB322D900C7CE36 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		9208BD9B1EB322D900C7CE36 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		9208BD9C1EB322D900C7CE36 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		9208BD9D1EB322D900C7CE36 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		9208BD9E1EB322D900C7CE36 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		9208BD9F1EB322D900C7CE36 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		9208BDA01EB322D900C7CE36 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		9208BDA11EB322D900C7CE36 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		9208BDA21EB322D900C7CE36 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		9208BDA81EB3234B00C7CE36 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9226442F1EB0A13700964C6A /* Vrhcaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vrhcaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922644321EB0A13700964C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,17 +58,6 @@
 		9208BD961EB322AE00C7CE36 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				9208BD981EB322D900C7CE36 /* FMDatabase.h */,
-				9208BD991EB322D900C7CE36 /* FMDatabase.m */,
-				9208BD9A1EB322D900C7CE36 /* FMDatabaseAdditions.h */,
-				9208BD9B1EB322D900C7CE36 /* FMDatabaseAdditions.m */,
-				9208BD9C1EB322D900C7CE36 /* FMDatabasePool.h */,
-				9208BD9D1EB322D900C7CE36 /* FMDatabasePool.m */,
-				9208BD9E1EB322D900C7CE36 /* FMDatabaseQueue.h */,
-				9208BD9F1EB322D900C7CE36 /* FMDatabaseQueue.m */,
-				9208BDA01EB322D900C7CE36 /* FMDB.h */,
-				9208BDA11EB322D900C7CE36 /* FMResultSet.h */,
-				9208BDA21EB322D900C7CE36 /* FMResultSet.m */,
 				9208BD971EB322D700C7CE36 /* Vrhcaby-Bridging-Header.h */,
 			);
 			name = FMDB;
@@ -258,13 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				922644351EB0A13700964C6A /* ViewController.swift in Sources */,
-				9208BDA51EB322D900C7CE36 /* FMDatabasePool.m in Sources */,
 				922644331EB0A13700964C6A /* AppDelegate.swift in Sources */,
-				9208BDA61EB322D900C7CE36 /* FMDatabaseQueue.m in Sources */,
 				9208BD821EB1D95800C7CE36 /* FinalVC.swift in Sources */,
-				9208BDA31EB322D900C7CE36 /* FMDatabase.m in Sources */,
-				9208BDA71EB322D900C7CE36 /* FMResultSet.m in Sources */,
-				9208BDA41EB322D900C7CE36 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
