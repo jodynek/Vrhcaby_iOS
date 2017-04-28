@@ -15,6 +15,7 @@
 		922644381EB0A13700964C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922644361EB0A13700964C6A /* Main.storyboard */; };
 		9226443A1EB0A13700964C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922644391EB0A13700964C6A /* Assets.xcassets */; };
 		9226443D1EB0A13700964C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9226443B1EB0A13700964C6A /* LaunchScreen.storyboard */; };
+		923E71F71EB3479F00637451 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E71F61EB3479F00637451 /* DBManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		922644391EB0A13700964C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9226443C1EB0A13700964C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9226443E1EB0A13700964C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923E71F61EB3479F00637451 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				9208BD961EB322AE00C7CE36 /* FMDB */,
+				923E71F61EB3479F00637451 /* DBManager.swift */,
 				922644321EB0A13700964C6A /* AppDelegate.swift */,
 				922644341EB0A13700964C6A /* ViewController.swift */,
 				9208BD811EB1D95800C7CE36 /* FinalVC.swift */,
@@ -233,6 +236,7 @@
 				922644351EB0A13700964C6A /* ViewController.swift in Sources */,
 				922644331EB0A13700964C6A /* AppDelegate.swift in Sources */,
 				9208BD821EB1D95800C7CE36 /* FinalVC.swift in Sources */,
+				923E71F71EB3479F00637451 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2832BB678A2C6DE3280FCEEF /* Pods-Vrhcaby.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = FADB7XUMY7;
@@ -370,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41CF1640BD6D175A90CD6936 /* Pods-Vrhcaby.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = FADB7XUMY7;
