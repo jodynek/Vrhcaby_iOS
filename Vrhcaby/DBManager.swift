@@ -33,13 +33,9 @@ class DBManager: NSObject {
         if database.open() {
           let createMoviesTableQuery = "create table movies (movieID integer primary key autoincrement not null, title text not null, category text not null, year integer not null, movieURL text, coverURL text not null, watched bool not null default 0, likes integer not null)"
           
-          do {
-            try database.executeUpdate(createMoviesTableQuery, withParameterDictionary: nil)
-            created = true
-          }
-          catch {
+          created = database.executeUpdate(createMoviesTableQuery, withParameterDictionary: nil)
+          if (!created) {
             print("Could not create table.")
-            print(error.localizedDescription)
           }
           
           // At the end close the database.
